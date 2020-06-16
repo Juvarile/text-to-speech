@@ -5,7 +5,7 @@ Werkende POC van een Text-to-speech. Eerste versie is gebasseerd op een textarea
 
 ## Code 
 ### HTML
-`<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,9 +28,9 @@ Werkende POC van een Text-to-speech. Eerste versie is gebasseerd op een textarea
 
     <script src="main.js"></script>
 </body>
-</html>`
+</html>```
 ## CSS
-`body{
+```body{
     background-image:url(bg.jpg);
     background-size:cover;
     margin:0;
@@ -84,9 +84,9 @@ Werkende POC van een Text-to-speech. Eerste versie is gebasseerd op een textarea
 #play-btn:disabled{
     cursor:not-allowed;
     border: 2px solid gray;
-}`
+}```
 ### Javascript
-`const maxCharacters = 1000;
+```const maxCharacters = 1000;
 const url = 'https://api.voicerss.org/';
 const apiKey = 'a0f50ac64f4747c0b2966b45f8fe4831';
 const whitespaceError = 'Text must contain text characters other than empty spaces';
@@ -135,4 +135,4 @@ document.addEventListener('DOMContentLoaded', () => {
     textInput().addEventListener('paste', listenerFn);
 });
 
-`
+```
