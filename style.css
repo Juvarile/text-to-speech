@@ -8,6 +8,7 @@ body{
 #app-container{
     width:800px;
     margin:auto;
+    position:relative;
 }
 #app-container h1{
     font-family:sans-serif;
@@ -29,8 +30,14 @@ body{
     font-size:24px;
     text-align:center;
 }
+
+#input-container{
+font-size:24px;
+letter-spacing: normal;
+position:relative;
+}
 #control-container{
-    margin:25px;
+    margin:30px;
     text-align:center;
 }
 #play-btn{
