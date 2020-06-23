@@ -15,7 +15,7 @@ body{
     font-size: 54px;
     color:black;
     text-align:center;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
 }
 #input-container textarea{
     width: 100%;
@@ -37,6 +37,7 @@ color: white;
 letter-spacing: normal;
 position:relative;
 --lumin-background-color: white;
+user-select: none; 
 --lumin-color: black;
 }
 #control-container{
@@ -56,10 +57,12 @@ position:relative;
     font-family:"Poppins", sans-serif;
     border-radius:5px;
 }
+
+
 #play-btn:hover{
     background-color:rgba(255,255,255,0.7);
 }
-#play-btn:disabled{
+/* #play-btn:disabled{
     cursor:not-allowed;
     border: 2px solid gray;
-}
+} */
