@@ -1,6 +1,9 @@
 # text-to-speech met lumin.js
 
 ## Inleiding
-Werkende POC van een Text-to-speech. Tweede versie is gebasseerd op een header met daarin de introductie voor onze chatbot. Deze wordt door middel van lumin.js gehighlight. Het text-to-speech api leest deze tekst voor en ondertussen wordt het gehighlight zodat de gebruiker mee kan lezen. Uiteindelijk is deze tweede versie een stuk intereactiever dan de tweede.
+Werkende POC van een Text-to-speech. Derde versie is gebasseerd op een tekst met daarin de introductie voor onze chatbot. Deze wordt door middel van lumin.js gehighlight. Dit effect heb ik zo gemaakt zodat het lijkt dat het getypt wordt. De bedoeling is dat uiteindelijk het text-to-speech api deze tekst voorleest en ondertussen wordt het getypt zodat de gebruiker mee kan lezen. 
 
-### Installatie
+De derde versie heeft een fijner effect dan de vorige.
+
+### Voorbeeld
+
